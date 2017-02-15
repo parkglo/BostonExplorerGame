@@ -1,4 +1,7 @@
-# BostonExplorerGame
+<p align="center"> 
+# BostonExplorerGame 
+</p>
+
 <p align="center">
 Simple SFML Game (C++)
 </p>
@@ -12,11 +15,11 @@ Created with C++ (used SFML) in 2014/2015.
 </p>
 
 <p align="center">
-[Read more about this project.](https://b00stiandroid.wordpress.com/2017/02/15/my-first-project/)
+<a href="https://b00stiandroid.wordpress.com/2017/02/15/my-first-project/">Read more about this project.</a>
 </p>
 
 <p align="center">
-[Watch video.](https://www.youtube.com/watch?v=iebCf9exflY)
+<a href="https://www.youtube.com/watch?v=iebCf9exflY">Watch video.</a>
 </p>
 
 <p align="center">
@@ -26,5 +29,5 @@ alt="Boston Explorer" width="480" height="320" border="10" /></a>
 
 </p>
 <p align="center">
-[Download, install and have fun !](https://github.com/b00sti/BostonExplorerGame/blob/15dfff7cbefbd0f7afb06a6cb136719c44f59fe0/BostonExplorer.exe)
+<a href="https://github.com/b00sti/BostonExplorerGame/blob/15dfff7cbefbd0f7afb06a6cb136719c44f59fe0/BostonExplorer.exe">Download, install and have fun !</a>
 </p>
