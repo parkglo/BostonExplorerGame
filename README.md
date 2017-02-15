@@ -1,5 +1,6 @@
 <p align="center"> 
-# BostonExplorerGame 
+BostonExplorerGame 
+========
 </p>
 
 <p align="center">
