@@ -1,34 +1,5 @@
-<p align="center"> 
-BostonExplorerGame 
-========
-</p>
-
-<p align="center">
-Simple SFML Game (C++)
-</p>
-
-<p align="center">
-My first ever project.
-</p>
-
-<p align="center">
-Created with C++ (used SFML) in 2014/2015.
-</p>
-
-<p align="center">
-<a href="https://b00stiandroid.wordpress.com/2017/02/15/my-first-project/">Read more about this project.</a>
-</p>
-
-<p align="center">
-<a href="https://www.youtube.com/watch?v=iebCf9exflY">Watch video.</a>
-</p>
-
-<p align="center">
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=iebCf9exflY
-" target="_blank"><img src="http://img.youtube.com/vi/iebCf9exflY/0.jpg" 
-alt="Boston Explorer" width="480" height="320" border="10" /></a>
-
-</p>
-<p align="center">
-<a href="https://github.com/b00sti/BostonExplorerGame/blob/15dfff7cbefbd0f7afb06a6cb136719c44f59fe0/BostonExplorer.exe">Download, install and have fun !</a>
-</p>
+<p>&lt;p align="center"&gt;</p>
+<h4>BostonExplorerGame</h4>
+<p><br />&lt;/p&gt;</p>
+<hr />
+<p><br /><br />&lt;p align="center"&gt;<br />Simple SFML Game (C++)<br />&lt;/p&gt;<br /><br />&lt;p align="center"&gt;<br />My first ever project.<br />&lt;/p&gt;<br /><br />&lt;p align="center"&gt;<br />Created with C++ (used SFML) in 2014/2015.<br />&lt;/p&gt;<br /><br />&lt;p align="center"&gt;<br />&lt;a href="https://b00stiandroid.wordpress.com/2017/02/15/my-first-project/"&gt;Read more about this project.&lt;/a&gt;<br />&lt;/p&gt;<br /><br />&lt;p align="center"&gt;<br />&lt;a href="https://www.youtube.com/watch?v=iebCf9exflY"&gt;Watch video.&lt;/a&gt;<br />&lt;/p&gt;<br /><br />&lt;p align="center"&gt;<br />&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=iebCf9exflY<br />" target="_blank"&gt;&lt;img src="http://img.youtube.com/vi/iebCf9exflY/0.jpg" <br />alt="Boston Explorer" width="480" height="320" border="10" /&gt;&lt;/a&gt;<br /><br />&lt;/p&gt;<br />&lt;p align="center"&gt;<br />&lt;a href="https://github.com/b00sti/BostonExplorerGame/blob/15dfff7cbefbd0f7afb06a6cb136719c44f59fe0/BostonExplorer.exe"&gt;Download, install and have fun !&lt;/a&gt;<br />&lt;/p&gt;</p>
