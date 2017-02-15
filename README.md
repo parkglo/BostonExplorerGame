@@ -1,6 +1,7 @@
-<h3 style="text-align: center;">BostonExplorerGame</h3>
+<h3 style="text-align: center;"><strong>BostonExplorerGame</strong></h3>
 <hr />
 <p>&nbsp;</p>
+<p align="center"><strong>Boston Explorer</strong></p>
 <p align="center">Simple SFML Game (C++)</p>
 <p align="center">My first ever project.</p>
 <p align="center">Created with C++ (used SFML) in 2014/2015.</p>
