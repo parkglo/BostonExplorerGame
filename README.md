@@ -1,6 +1,4 @@
-<p align="center">
-<h3 style="text-align: center;"><strong>BostonExplorerGame</strong></h3>
-</p>
+# BostonExplorerGame
 <hr />
 <p>&nbsp;</p>
 <p align="center"><strong>Boston Explorer</strong></p>
