@@ -3,7 +3,7 @@
 <p align="center"><strong>Boston Explorer</strong></p>
 <p align="center">Simple 2D Game.</p>
 <p align="center">My first ever project.</p>
-<p align="center">Created in C++ (used SFML) in 2014/2015.</p>
+<p align="center">Created in C++ (used SFML) a long long time ago.</p>
 <p align="center"><a href="https://b00sti.wordpress.com/2017/02/15/my-first-project/">Read more about this project.</a></p>
 <p align="center"><a href="https://www.youtube.com/watch?v=iebCf9exflY">Watch video.</a></p>
 <p align="center"><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=iebCf9exflY
