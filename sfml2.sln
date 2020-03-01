@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfml2", "sfml2.vcxproj", "{8641C489-6E0C-40BF-B06C-C44C976165DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BostonExplorerTesting", "BostonExplorerTesting\BostonExplorerTesting.vcxproj", "{44134D9F-088F-497C-B567-4BF22EAB8CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -27,6 +29,16 @@ Global
 		{8641C489-6E0C-40BF-B06C-C44C976165DB}.Release|x64.Build.0 = Release|x64
 		{8641C489-6E0C-40BF-B06C-C44C976165DB}.Release|x86.ActiveCfg = Release|Win32
 		{8641C489-6E0C-40BF-B06C-C44C976165DB}.Release|x86.Build.0 = Release|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Debug|ARM.ActiveCfg = Debug|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Debug|x64.ActiveCfg = Debug|x64
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Debug|x64.Build.0 = Debug|x64
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Debug|x86.Build.0 = Debug|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Release|ARM.ActiveCfg = Release|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Release|x64.ActiveCfg = Release|x64
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Release|x64.Build.0 = Release|x64
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Release|x86.ActiveCfg = Release|Win32
+		{44134D9F-088F-497C-B567-4BF22EAB8CA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
