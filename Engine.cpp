@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include "Engine.h"
 #include <iostream>
 #include <cmath>
@@ -84,7 +86,7 @@ flagtocompletelevel(true)
 	newRecordString.setCharacterSize(174);
 	newRecordString.setPosition(Vector2f(1280 / 2 - newRecordString.getLocalBounds().width / 2, 300));
 	newGameRecordString.setCharacterSize(174);
-	newGameRecordString.setColor(Color::Black);
+	newGameRecordString.setFillColor(Color::Black);
 	newGameRecordString.setPosition(Vector2f(1280 / 2 - newGameRecordString.getLocalBounds().width / 2, 300));
 	underNewGameRecord.setPosition(Vector2f(newGameRecordString.getGlobalBounds().left - 30, newGameRecordString.getGlobalBounds().top - 30));
 	underNewGameRecord.setFillColor(Color::Red);
@@ -127,7 +129,7 @@ flagtocompletelevel(true)
 			MessageBox(NULL, "Shader not found !", "ERROR", NULL);
 			return;
 		}
-		blurEffect.setParameter("texture", Shader::CurrentTexture);
+		blurEffect.setUniform("texture", Shader::CurrentTexture);
 	}
 
 	gameStatistics.audio2.loadMusic(false);
@@ -182,7 +184,7 @@ void Engine::runEngine(RenderWindow &window, Staty::GameStatistics &gameStatisti
 			check_collision();
 			check_collision_withFood(gameStatistics);
 
-			blurEffect.setParameter("blur_radius", 0.f);
+			blurEffect.setUniform("blur_radius", 0.f);
 			player.update(mousePos);
 		}
 
@@ -500,7 +502,7 @@ void Engine::render(RenderWindow &window, Staty::GameStatistics &gameStatistics)
 		if (pos.x > 1130 || pos.y < 3) flagtoanimationNewLife = false;
 		if (time > 2.5f) scaleFactor = (5 - time) / 2.5f;
 		newLife.setPosition(pos);
-		newLife.setColor(Color(0, 0, 255, static_cast<Uint8>(255.f * scaleFactor)));
+		newLife.setFillColor(Color(0, 0, 255, static_cast<Uint8>(255.f * scaleFactor)));
 		newLife.setScale(scaleFactor, scaleFactor);
 		window.draw(newLife);
 	}

@@ -156,11 +156,11 @@ void Game::menu(){
 		{
 			if (textMenu[i].getGlobalBounds().contains(mouse))
 			{
-				textMenu[i].setColor(Color::Cyan);
+				textMenu[i].setFillColor(Color::Cyan);
 			}
 			else
 			{
-				textMenu[i].setColor(Color::White);
+				textMenu[i].setFillColor(Color::White);
 			}
 		}
 
@@ -259,13 +259,13 @@ void Game::game_over(Staty::GameStatistics &gameStatistics)
 				addNewGameRecord.setFont(font);
 				addNewGameRecord.setCharacterSize(40);
 				addNewGameRecord.setString(addNewRecord);
-				addNewGameRecord.setColor(Color::Red);
+				addNewGameRecord.setFillColor(Color::Red);
 				addNewGameRecord.setPosition(1280 / 2 + tab_rec[i].getGlobalBounds().width / 2 + 50, 60 + i * 25);
 				window.draw(addNewGameRecord);
 			}
 
-			if (tab_rec[i].getGlobalBounds().contains(mouse)) tab_rec[i].setColor(Color::Green);
-			else{ tab_rec[i].setColor(Color::White); };
+			if (tab_rec[i].getGlobalBounds().contains(mouse)) tab_rec[i].setFillColor(Color::Green);
+			else{ tab_rec[i].setFillColor(Color::White); };
 		}
 
 		//Levels Records
@@ -291,7 +291,7 @@ void Game::game_over(Staty::GameStatistics &gameStatistics)
 			str.setPosition(1280 / 2 - 280 / 2, 250 + i * 13 + to_setPos);
 
 			if (!((i + 1) % 5)) to_setPos += 10;
-			if (str.getGlobalBounds().contains(mouse)) str.setColor(Color::Red);
+			if (str.getGlobalBounds().contains(mouse)) str.setFillColor(Color::Red);
 
 			window.draw(str);
 		}
@@ -402,7 +402,7 @@ void Game::about(){
 		Vector2f mouse(Mouse::getPosition());
 		Event event;
 
-		if (back_button.getGlobalBounds().contains(mouse)) back_button.setColor(Color::Cyan);
+		if (back_button.getGlobalBounds().contains(mouse)) back_button.setFillColor(Color::Cyan);
 
 		while (window.pollEvent(event))
 		{

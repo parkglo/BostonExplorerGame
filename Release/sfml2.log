@@ -1,0 +1,95 @@
+﻿  Audio.cpp
+  Food.cpp
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Food.cpp(28,24): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Food.cpp(29,23): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Food.cpp(56,24): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Food.cpp(57,23): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Engine.cpp
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(119,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(119,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(218,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(219,8): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(226,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(227,15): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(234,16): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(235,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(242,36): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(243,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(263,77): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(290,27): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(292,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Engine.cpp(501,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Game.cpp
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(12,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(110,84): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(116,84): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(253,81): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(263,93): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(291,53): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Game.cpp(395,37): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  Level.cpp
+  WinMain.cpp
+  Player.cpp
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Player.cpp(47,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Player.cpp(91,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Player.cpp(92,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Point.cpp
+  PointAnimation.cpp
+  Records.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 454 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  sfml2.vcxproj -> C:\Users\lanza\OneDrive\Desktop\BostonExplorerGame\Release\sfml2.exe
