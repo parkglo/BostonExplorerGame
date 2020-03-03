@@ -18,12 +18,12 @@ class Game
 
 		void runGame();
 
-	protected:
+	//protected:
 
 		enum  GameState {MENU, GAME, GAME_OVER,ABOUT, END};
 		GameState state;
 
-	private:
+	//private:
 
 		Font font;
 		bool fullScrean;
