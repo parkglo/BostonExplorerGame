@@ -2,6 +2,7 @@
 #include <boost/test/included/unit_test.hpp>
 #include "Level.h"   
 #include "Player.h"
+#include "Food.h"
 
 // *** LEVEL ***
 
