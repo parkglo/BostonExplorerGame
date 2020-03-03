@@ -17,7 +17,7 @@ class PointAnimation
 		void update();
 		void drawPoint(RenderWindow &window);
 
-	private:
+	// private:
 
 		const float lifetime; //sec
 		mutable std::vector<Point*> data;
