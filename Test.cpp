@@ -14,25 +14,24 @@ BOOST_AUTO_TEST_CASE(testGame1) {
     BOOST_CHECK(game.fullScrean == FALSE);
 }
 
-//check menu function
+//check rungame
 BOOST_AUTO_TEST_CASE(testGame2) {
 
     //initialize game
     Game game;
-
-    //run menu
-    game.menu();
-    //check if first game state is MENU
-    BOOST_CHECK(game.state == 0);
+    //check if starting the game throws error
+    BOOST_CHECK_NO_THROW(game.runGame());
 }
 
-//check game over function
+//check single function
 BOOST_AUTO_TEST_CASE(testGame3) {
 
     //initialize game
     Game game;
-    //check if first game state is MENU
-    BOOST_CHECK(game.state == 0);
+
+    //set state to in-game and check for error
+    game.state = Game::GameState::GAME;
+    BOOST_CHECK_NO_THROW(game.runGame());
 }
 
 //check about function
@@ -40,18 +39,20 @@ BOOST_AUTO_TEST_CASE(testGame4) {
 
     //initialize game
     Game game;
-    //check if first game state is MENU
-    BOOST_CHECK(game.state == 0);
+
+    //set state to the about page and check for error
+    game.state = Game::GameState::ABOUT;
+    BOOST_CHECK_NO_THROW(game.runGame());
 }
 
-//check rungame
+//check menu function
 BOOST_AUTO_TEST_CASE(testGame5) {
 
     //initialize game
     Game game;
-    //check if first game state is MENU
-    BOOST_CHECK(game.state == 0);
 
+    //check if menu works
+    BOOST_CHECK_NO_THROW(game.menu());
 }
 
 //check initialization
