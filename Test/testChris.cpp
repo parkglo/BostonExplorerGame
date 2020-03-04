@@ -45,7 +45,7 @@ BOOST_AUTO_TEST_CASE(testPoint2) {
   BOOST_CHECK(pos(Vector2f(700,400));
 }
 
-BOOST_AUTO_TEST_CASE(testEngine) {
+BOOST_AUTO_TEST_CASE(testEngine5) {
   //Initialize Engine
   Engine engine;
   
@@ -53,7 +53,7 @@ BOOST_AUTO_TEST_CASE(testEngine) {
   BOOST_CHECK_THROW(engine.howmanyFood = 9);
 }
 
-BOOST_AUTO_TEST_CASE(testEngine) {
+BOOST_AUTO_TEST_CASE(testEngine6) {
   //Intialize Engine
   Engine engine;
   
@@ -61,7 +61,7 @@ BOOST_AUTO_TEST_CASE(testEngine) {
   BOOST_CHECK_NO_THROW(engine.check_collision());
 }
 
-BOOST_AUTO_TEST_CASE(testEngine) {
+BOOST_AUTO_TEST_CASE(testEngine7) {
   //Intialize Engine
   Engine engine;
   GameStatistics stats;
@@ -70,7 +70,7 @@ BOOST_AUTO_TEST_CASE(testEngine) {
   BOOST_CHECK_NO_THROW(engine.check_collision_withFOOD(stats));
 }
 
-BOOST_AUTO_TEST_CASE(testEngine) {
+BOOST_AUTO_TEST_CASE(testEngine8) {
   //Intialize Engine
   Engine engine;
   GameStatistics stats;
@@ -80,7 +80,7 @@ BOOST_AUTO_TEST_CASE(testEngine) {
 }
 
 
-BOOST_AUTO_TEST_CASE(testEngine) {
+BOOST_AUTO_TEST_CASE(testEngine9) {
   //Intialize Engine
   Engine engine;
   RenderWindow win;
