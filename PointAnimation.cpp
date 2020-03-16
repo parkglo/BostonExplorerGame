@@ -49,7 +49,7 @@ void PointAnimation::drawPoint(RenderWindow &window)
 		if (time > 0.5f * lifetime) scaleFactor = (lifetime - time) / (lifetime * 0.5f );
 		data[i]->label2.setString(data[i]->label);
 		data[i]->label2.setPosition(labelPos);
-		data[i]->label2.setColor(Color(255, 0, 0, static_cast<Uint8>(255.f * scaleFactor)));
+		data[i]->label2.setFillColor(Color(255, 0, 0, static_cast<Uint8>(255.f * scaleFactor)));
 
 		data[i] -> label2.setScale(scaleFactor, scaleFactor);
 
