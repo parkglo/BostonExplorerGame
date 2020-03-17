@@ -667,14 +667,20 @@ float Engine::getPowerState(RenderWindow &window, Staty::GameStatistics &gameSta
 {
 	float state = 0;
 	Time timePast = clock.getElapsedTime();
-
-	state = (powerCapacity - (timePast.asSeconds()*speed_powerbar - state2 - pauseElapsedTimeInAllLevel.asSeconds() * speed_powerbar)) / powerCapacity;
-
+	
 	if (state > 1)
 	{
 		state = 1;
 		state2 = timePast.asSeconds();
 	}
+	
+	state = (powerCapacity - (timePast.asSeconds()*speed_powerbar - state2 - pauseElapsedTimeInAllLevel.asSeconds() * speed_powerbar)) / powerCapacity;
+
+	/*if (state > 1)
+	{
+		state = 1;
+		state2 = timePast.asSeconds();
+	}*/
 
 	if (state < 0)
 	{
