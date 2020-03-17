@@ -7,6 +7,31 @@
 using namespace std;
 using namespace sf;
 
+//game statistics
+class Stats
+{
+public:
+
+	struct GameStatistics
+	{
+		int points = 0;
+		int lives = 3;
+		int nrLevel = 1;
+		int maxLevel = 15;
+		int toNewLive = 50000;
+
+		static const int howmanylevels = 30;
+		Records tabWithRecords[howmanylevels];
+
+		bool ifRecord[howmanylevels];
+		bool ifGameRecord[3];
+		bool flagsoundingame = false;
+
+		Audio audio2;
+	};
+
+};
+
 class Player: public Drawable,Transformable
 {
 
